@@ -1,0 +1,76 @@
+{
+    "homepage": "https://notepad-plus-plus.org/",
+    "version": "7.6.6",
+    "license": "GPL-2.0-only",
+    "notes": "Add Notepad++ as a context menu option by running: \"$dir\\notepadplusplus-install-context.reg\"",
+    "bin": "notepad++.exe",
+    "shortcuts": [
+        [
+            "notepad++.exe",
+            "Notepad++"
+        ]
+    ],
+    "post_install": [
+        "if(Test-Path(\"$dir\\notepadplusplus-install-context.reg\")) {",
+        "  $npppath = \"$dir\\notepad++.exe\".Replace('\\', '\\\\')",
+        "  $content = Get-Content \"$dir\\notepadplusplus-install-context.reg\"",
+        "  $content = $content.Replace('$npp', $npppath)",
+        "  $content | Set-Content -Path \"$dir\\notepadplusplus-install-context.reg\"",
+        "}"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.bin.x64.7z",
+                "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
+                "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
+            ],
+            "hash": [
+                "a98a11914cc5990ef05b3641cb522dcadd3c22f2a460be671f90b11e9920727f",
+                "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
+                "9b55432e91e8534cc871d8d57f826761649d1ed7a3a5d7cabc3089fe5a6e147f"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.bin.7z",
+                "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
+                "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
+            ],
+            "hash": [
+                "f4536ede75152615b96f927ce9e3b0dace30bddf293e5472018c5b9d79be8403",
+                "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
+                "9b55432e91e8534cc871d8d57f826761649d1ed7a3a5d7cabc3089fe5a6e147f"
+            ]
+        }
+    },
+    "checkver": "Current Version:.*?<span>(.*?)</span>",
+    "persist": [
+        "backup",
+        "cloud",
+        "plugins",
+        "themes",
+        "userDefineLangs",
+        "config.xml",
+        "session.xml",
+        "userDefineLang.xml"
+    ],
+    "pre_install": [
+        "Add-Content \"$dir/config.xml\" $null",
+        "Add-Content \"$dir/session.xml\" $null",
+        "Add-Content \"$dir/userDefineLang.xml\" $null"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.bin.x64.7z"
+            },
+            "32bit": {
+                "url": "https://notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.bin.7z"
+            }
+        },
+        "hash": {
+            "url": "https://notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.checksums.sha256.sig"
+        }
+    }
+}
