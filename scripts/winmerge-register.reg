@@ -1,4 +1,4 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_LOCAL_MACHINE\*\shell\Open with &Notepad++]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Thingamahoochie\WinMerge]
 "Executable"="$winmerge"
