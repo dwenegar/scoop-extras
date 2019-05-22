@@ -1,6 +1,6 @@
 {
     "homepage": "https://notepad-plus-plus.org/",
-    "version": "7.6.6",
+    "version": "7.7",
     "license": "GPL-2.0-only",
     "notes": "Add Notepad++ as a context menu option by running: \"$dir\\notepadplusplus-install-context.reg\"",
     "bin": "notepad++.exe",
@@ -21,24 +21,24 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.bin.x64.7z",
+                "https://notepad-plus-plus.org/repository/7.x/7.7/npp.7.7.bin.x64.7z",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "a98a11914cc5990ef05b3641cb522dcadd3c22f2a460be671f90b11e9920727f",
+                "97d8c39276a86a0f2cb6c9ec6081aa0f7bdf0a70eac896a5187bb6493c96cfa6",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
         },
         "32bit": {
             "url": [
-                "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.bin.7z",
+                "https://notepad-plus-plus.org/repository/7.x/7.7/npp.7.7.bin.7z",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "f4536ede75152615b96f927ce9e3b0dace30bddf293e5472018c5b9d79be8403",
+                "a5068f28cb737f2a2182490e1761d01480f66d99735858e284becad2beaa7d30",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
