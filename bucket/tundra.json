@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/deplinenoise/tundra",
     "license": "MIT",
-    "version": "2.08",
+    "version": "2.10",
     "extract_dir": "tundra",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.08/Tundra-Binaries.zip",
-            "hash": "e5e00a4ef99eb946dd1f8679a2a0efc15dae59c7665f34368ed63e7ca0580650"
+            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.10/Tundra-Binaries.zip",
+            "hash": "4d1dfe9914ba85fb0aa51ea07d0c2c01770660ea33f46a9119f8d3d458c4d551"
         },
         "32bit": {
-            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.08/Tundra-Binaries.zip",
-            "hash": "e5e00a4ef99eb946dd1f8679a2a0efc15dae59c7665f34368ed63e7ca0580650"
+            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.10/Tundra-Binaries.zip",
+            "hash": "4d1dfe9914ba85fb0aa51ea07d0c2c01770660ea33f46a9119f8d3d458c4d551"
         }
     },
     "bin": [
