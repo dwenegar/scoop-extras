@@ -1,6 +1,6 @@
 {
     "homepage": "https://notepad-plus-plus.org/",
-    "version": "7.7.1",
+    "version": "7.8",
     "license": "GPL-2.0-only",
     "notes": "Add Notepad++ as a context menu option by running: \"$dir\\notepadplusplus-install-context.reg\"",
     "bin": "notepad++.exe",
@@ -21,30 +21,30 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.bin.x64.7z",
+                "http://download.notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.bin.x64.7z",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "528ec2bf90fd409b4bf914c198b93db28cecd4fa2a8cdf6180f1b9cded7f8dfa",
+                "520974c89783d127cd9fa01611b715e1ca4d7f82ff79fa5bbf9ebb2843385ab2",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
         },
         "32bit": {
             "url": [
-                "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.bin.7z",
+                "http://download.notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.bin.7z",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "f0af67993bd5f420ef0d9268f9667d628090491899f6529a7a75f60244700ef1",
+                "01f095e72b2df940dd76d7720d789dc9d7916efd790eecd29b48d0004f148589",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
         }
     },
-    "checkver": "Current Version:.*?<span>(.*?)</span>",
+    "checkver": "<strong>Current Version (.*?)</strong>",
     "persist": [
         "backup",
         "cloud",
@@ -63,14 +63,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.bin.x64.7z"
+                "url": "http://download.notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.bin.x64.7z"
             },
             "32bit": {
-                "url": "https://notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.bin.7z"
+                "url": "http://download.notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.bin.7z"
             }
         },
         "hash": {
-            "url": "https://notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.checksums.sha256.sig"
+            "url": "http://download.notepad-plus-plus.org/repository/$majorVersion.x/$version/npp.$version.checksums.sha256"
         }
     }
 }
