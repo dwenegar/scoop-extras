@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/luarocks/luarocks",
+    "version": "3.2.1",
+    "license": "MIT License",
+    "bin": [
+        "luarocks.exe",
+        "luarocks-admin.exe"
+    ],
+    "url": "http://luarocks.github.io/luarocks/releases/luarocks-3.2.1-windows-32.zip",
+    "hash": "510c3dd6872f6ceb9e5cb0e9cc9435c723396a4c99a27abcf79b78651be38084",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "http://luarocks.github.io/luarocks/releases/luarocks-$version-windows-32.zip"
+    },
+    "extract_dir": "luarocks-3.2.1-windows-32"
+}
