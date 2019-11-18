@@ -12,6 +12,11 @@
     "autoupdate": {
         "url": "http://luarocks.github.io/luarocks/releases/luarocks-$version-windows-32.zip"
     },
+    "env_set": {
+        "LUA_PATH": "%APPDATA%/luarocks/share/lua/5.3/?.lua;%APPDATA%/luarocks/share/lua/5.3/?/init.lua;./?.lua;./?/init.lua",
+        "LUA_CPATH": "%APPDATA%/luarocks/lib/lua/5.3/?.dll;./?.dll"
+    },
+    "env_add_path": "%APPDATA%/luarocks/bin",
     "extract_dir": "luarocks-3.2.1-windows-32",
     "depends": "lua"
 }
