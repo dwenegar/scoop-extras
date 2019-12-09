@@ -19,9 +19,12 @@
     "extract_dir": "luarocks-3.2.1-windows-32",
     "depends": "lua",
     "installer": {
-        "script": "add_first_in_path \"$env:APPDATA\\luarocks\\bin\" $global"
+        "script": [
+            "mkdir \"$env:APPDATA\\luarocks\"",
+            "add_first_in_path \"$env:APPDATA\\luarocks\\bin\" $global"
+        ]
     },
     "uninstaller": {
         "script": "remove_from_path \"$env:APPDATA\\luarocks\\bin\" $global"
-    }    
+    }
 }
