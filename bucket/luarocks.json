@@ -2,12 +2,19 @@
     "homepage": "https://github.com/luarocks/luarocks",
     "version": "3.2.1",
     "license": "MIT License",
+    "notes": "Configure luarocks by copying: \"$dir\\luarocks-config.lua\" to \"$env:APPDATA\\luarocks\"",
     "bin": [
         "luarocks.exe",
         "luarocks-admin.exe"
     ],
-    "url": "http://luarocks.github.io/luarocks/releases/luarocks-3.2.1-windows-32.zip",
-    "hash": "510c3dd6872f6ceb9e5cb0e9cc9435c723396a4c99a27abcf79b78651be38084",
+    "url": [
+        "http://luarocks.github.io/luarocks/releases/luarocks-3.2.1-windows-32.zip",
+        "http://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/luarocks-config.lua"
+    ],
+    "hash": [
+        "510c3dd6872f6ceb9e5cb0e9cc9435c723396a4c99a27abcf79b78651be38084",
+        "35eda43d05adee1aae6eb98514bb8f4b7c6ebfb017b2eafbcd55717049d3e137"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "http://luarocks.github.io/luarocks/releases/luarocks-$version-windows-32.zip"
@@ -20,11 +27,20 @@
     "depends": "lua",
     "installer": {
         "script": [
-            "mkdir \"$env:APPDATA\\luarocks\"",
+            "if(-not (Test-Path(\"$env:APPDATA\\luarocks\"))) {",
+            "  mkdir \"$env:APPDATA\\luarocks\"",
+            "}",
             "add_first_in_path \"$env:APPDATA\\luarocks\\bin\" $global"
         ]
     },
     "uninstaller": {
         "script": "remove_from_path \"$env:APPDATA\\luarocks\\bin\" $global"
-    }
+    },
+    "post_install": [
+        "if(Test-Path(\"$dir\\luarocks-config.lua\")) {",
+        "  $content = Get-Content \"$dir\\luarocks-config.lua\"",
+        "  $content = $content.Replace('$scoopdir', $scoopdir)",
+        "  $content | Set-Content \"$dir\\luarocks-config.lua\"",
+        "}"
+    ]
 }
