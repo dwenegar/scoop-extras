@@ -1,7 +1,7 @@
 {
-    "version": "1.20.2",
+    "version": "1.21.1",
     "license": "MIT",
-    "hash": "f9977cd2c1095eab88e6d9ee5c3897d4d73cd0f3b36d0301285ee4ca6c7429cf",
+    "hash": "b98d6677b55db9c7da8582a6279ff841dd49cee93cd9bb67f9773995f1083f41",
     "homepage": "https://github.com/rust-lang-nursery/rustup.rs",
     "checkver": {
         "url": "https://raw.githubusercontent.com/rust-lang-nursery/rustup.rs/master/Cargo.toml",
