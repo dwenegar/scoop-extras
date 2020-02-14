@@ -1,6 +1,6 @@
 {
     "homepage": "https://notepad-plus-plus.org/",
-    "version": "7.8.3",
+    "version": "7.8.4",
     "license": "GPL-2.0-only",
     "notes": "Add Notepad++ as a context menu option by running: \"$dir\\notepadplusplus-install-context.reg\"",
     "bin": "notepad++.exe",
@@ -21,24 +21,24 @@
     "architecture": {
         "64bit": {
             "url": [
-                "http://download.notepad-plus-plus.org/repository/7.x/7.8.3/npp.7.8.3.bin.x64.7z",
+                "http://download.notepad-plus-plus.org/repository/7.x/7.8.4/npp.7.8.4.bin.x64.7z",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "0ede665a3d05e4d53aad6e098ba79846c5fcaedd2a243dad38fd90ca5b22b664",
+                "5e2658a49404fc1b23a0fc3915b283ac190f9f6da2e86a49708602b77e50595d",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
         },
         "32bit": {
             "url": [
-                "http://download.notepad-plus-plus.org/repository/7.x/7.8.3/npp.7.8.3.bin.7z",
+                "http://download.notepad-plus-plus.org/repository/7.x/7.8.4/npp.7.8.4.bin.7z",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "8d983118efc265e87b6a027260476c2414e1b8b60e23327a2e0cbb5b7606b0f7",
+                "421dca4dcfb9ca8ae81bf51bd5c64d1432229ec89708efb3664a3603617824e2",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
