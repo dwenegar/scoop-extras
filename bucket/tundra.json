@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/deplinenoise/tundra",
     "license": "MIT",
-    "version": "2.13",
+    "version": "2.14",
     "extract_dir": "tundra",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.13/Tundra-Setup.exe",
-            "hash": "d6f64976b443cf4a414594895ee6ed294cad01c568a746b60c11ff55dce385a7"
+            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.14/Tundra-Setup.exe",
+            "hash": "c032f235bcac54b9a110e00145cfad5e5ccffbb044f2443f79db96a5381f3b09"
         },
         "32bit": {
-            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.13/Tundra-Setup.exe",
-            "hash": "d6f64976b443cf4a414594895ee6ed294cad01c568a746b60c11ff55dce385a7"
+            "url": "https://github.com/deplinenoise/tundra/releases/download/v2.14/Tundra-Setup.exe",
+            "hash": "c032f235bcac54b9a110e00145cfad5e5ccffbb044f2443f79db96a5381f3b09"
         }
     },
     "bin": [
