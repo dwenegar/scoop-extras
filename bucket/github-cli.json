@@ -1,0 +1,24 @@
+{
+    "homepage": "http://cli.github.com/",
+    "description": "Take GitHub to the command line",
+    "license": "MIT",
+    "version": "0.9.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cli/cli/releases/download/v0.9.0/gh_0.9.0_windows_amd64.zip",
+            "hash": "7c668e75662634334e74106ef8c50bc70a02849076367223ba8021cd95c9ee7f"
+        }
+    },
+    "extract_dir": "bin",
+    "bin": "gh.exe",
+    "checkver": {
+        "github": "https://github.com/cli/cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cli/cli/releases/download/v$version/gh_0.9.0_windows_amd64.zip"
+            }
+        }
+    }
+}
