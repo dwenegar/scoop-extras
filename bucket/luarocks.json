@@ -17,13 +17,14 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "http://luarocks.github.io/luarocks/releases/luarocks-$version-windows-32.zip"
+        "url": "http://luarocks.github.io/luarocks/releases/luarocks-$version-windows-32.zip",
+        "extract_dir": "luarocks-$version-windows-32"
     },
     "env_set": {
         "LUA_PATH": "%APPDATA%\\luarocks\\share\\lua\\5.3\\?.lua;%APPDATA%\\luarocks\\share\\lua\\5.3\\?\\init.lua;.\\?.lua;.\\?\\init.lua",
         "LUA_CPATH": "%APPDATA%\\luarocks\\lib\\lua\\5.3\\?.dll;.\\?.dll"
     },
-    "extract_dir": "luarocks-3.2.1-windows-32",
+    "extract_dir": "luarocks-3.3.1-windows-32",
     "depends": "lua",
     "installer": {
         "script": [
