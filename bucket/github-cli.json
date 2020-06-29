@@ -2,11 +2,11 @@
     "homepage": "http://cli.github.com/",
     "description": "Take GitHub to the command line",
     "license": "MIT",
-    "version": "0.10.0",
+    "version": "0.10.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cli/cli/releases/download/v0.10.0/gh_0.10.0_windows_amd64.zip",
-            "hash": "082ca3f0a8b8db91ff935c7f05066e7cedfd58456c53719cb3d4accee830d44b"
+            "url": "https://github.com/cli/cli/releases/download/v0.10.1/gh_0.10.1_windows_amd64.zip",
+            "hash": "2b8243e997d45f1f1441a11a4bdb33e8d432913fac883fe19d75ef1eab9825c4"
         }
     },
     "extract_dir": "bin",
