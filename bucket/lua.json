@@ -10,11 +10,14 @@
         }
     },
     "env_add_path": "bin",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/dwenegar/lua/releases",
+        "re": "\\/releases\\/tag\\/(?:v|V)?(5\\.3\\.\\d+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dwenegar/lua/releases/download/$version/lua-5.3.5-win64.zip"
+                "url": "https://github.com/dwenegar/lua/releases/download/$version/lua-5.3.$patchVersion-win64.zip"
             }
         }
     }
