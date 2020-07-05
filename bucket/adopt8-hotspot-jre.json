@@ -1,0 +1,42 @@
+{
+    "description": "AdoptOpenJDK 8 JRE with Oracle HotSpot JVM",
+    "homepage": "https://adoptopenjdk.net",
+    "version": "8u252-b09.1",
+    "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u252-b09.1/OpenJDK8U-jre_x64_windows_hotspot_8u252b09.zip",
+            "hash": "582f58290c66d6fb7e437a92a91695d25386e2497f684715e6e1b8702a69a804"
+        },
+        "32bit": {
+            "url": "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u252-b09.1/OpenJDK8U-jre_x86-32_windows_hotspot_8u252b09.zip",
+            "hash": "9314886ca817f5b9b3c9518b4abcb9070e04b767da7eba6e76e13313d97a0f7f"
+        }
+    },
+    "extract_dir": "jdk8u252-b09-jre",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://api.adoptopenjdk.net/v3/assets/feature_releases/8/ga?jvm_impl=hotspot&heap_size=normal&os=windows&architecture=x64&image_type=jre&project=jdk&vendor=adoptopenjdk&page_size=1&sort_order=DESC",
+        "jp": "$..binaries[0].package.link",
+        "re": "https://github.com/(?<url>.*?(?<tag>jdk(?<major>[\\d]+)(?<update>u[\\d]+)-(?<build>b[\\d]+)(?<patch>[\\d.]*)))/",
+        "replace": "${major}${update}-${build}${patch}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/$matchUrl/OpenJDK$matchMajorU-jre_x64_windows_hotspot_$matchMajor$matchUpdate$matchBuild.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/$matchUrl/OpenJDK$matchMajorU-jre_x86-32_windows_hotspot_$matchMajor$matchUpdate$matchBuild.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256.txt",
+            "find": "^([a-fA-F0-9]+)\\s"
+        },
+        "extract_dir": "jdk$matchMajor$matchUpdate-$matchBuild-jre"
+    }
+}
