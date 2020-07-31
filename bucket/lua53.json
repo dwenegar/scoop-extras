@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/dwenegar/lua/releases/download/5.3.5/lua-5.3.5-win64.zip",
-            "hash": "e60384e60c6fcd70ebca245f47a57c0465f79394e5061a6a49adb4e4f42cc262"
+            "hash": "f33920a9efbdb1984c644bf528fc7d92f08e8e2bda3be6587886f09de0db271f"
         },
         "32bit": {
             "url": "https://github.com/dwenegar/lua/releases/download/5.3.5/lua-5.3.5-win32.zip",
