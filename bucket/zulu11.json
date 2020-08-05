@@ -9,12 +9,12 @@
     "architecture": {
         "64bit": {
             "url": "https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jdk11.0.8-win_x64.zip",
-            "hash": "3602ed7bae52898c540c2d3ae3230c081cf061b219d14fb9ac15a47f4226d307",
+            "hash": "e6248a59ddc49b5896a0b29a481fc8987695e2fbe9390f8665868d0caadcdecd",
             "extract_dir": "zulu11.41.23-ca-jdk11.0.8-win_x64"
         },
         "32bit": {
             "url": "https://cdn.azul.com/zulu/bin/zulu11.41.23-ca-jdk11.0.8-win_i686.zip",
-            "hash": "f85e9dc0e2720caf73aa1fbeaf96307a97c052fe2bd30f51b9c7a2f2d3947407",
+            "hash": "1063a43fb23b9662dac03bd3ea016251c9db5b2f1a6924a33eaef17dbe58d9ce",
             "extract_dir": "zulu11.41.23-ca-jdk11.0.8-win_i686"
         }
     },
@@ -23,7 +23,7 @@
         "JAVA_HOME": "$dir"
     },
     "checkver": {
-        "url": "https://api.azul.com/zulu/download/community/v1.0/bundles/latest/?jdk_version=11&bundle_type=jdk&features=&ext=zip&os=windows&arch=x86&hw_bitness=64",
+        "url": "https://api.azul.com/zulu/download/community/v1.0/bundles/latest/?jdk_version=11&os=windows&arch=x86&hw_bitness=64&ext=zip&bundle_type=jdk&javafx=false",
         "jsonpath": "$.name",
         "regex": "(?<name>zulu(?<version>[\\d.]+)-ca-jdk(?<java>[\\d.]+)-win)_x64.zip",
         "replace": "${version}"
