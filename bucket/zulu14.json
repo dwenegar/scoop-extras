@@ -25,7 +25,7 @@
     "checkver": {
         "url": "https://api.azul.com/zulu/download/community/v1.0/bundles/latest/?jdk_version=14&bundle_type=jdk&features=&ext=zip&os=windows&arch=x86&hw_bitness=64",
         "jsonpath": "$.name",
-        "regex": "(?<name>zulu(?<version>[\\d.]+)-ca-jdk(?<java>[\\d.]+)-win)_x64.zip",
+        "regex": "(?<name>zulu(?<version>[\\d.]+)-ca-fx-jdk(?<java>[\\d.]+)-win)_x64.zip",
         "replace": "${version}"
     },
     "autoupdate": {
