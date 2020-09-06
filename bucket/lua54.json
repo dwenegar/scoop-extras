@@ -1,30 +1,23 @@
 {
-    "homepage": "https://github.com/dwenegar/lua",
+    "homepage": "https://github.com/luadevkit/build",
     "description": "Lua is a powerful, efficient, lightweight, embeddable scripting language.",
     "version": "5.4.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dwenegar/lua/releases/download/5.4.0/lua-5.4.0-win64.zip",
-            "hash": "800fd148f78e8374c68771cab4d7076763a53e863762c390bcce18ab83889bd5"
-        },
-        "32bit": {
-            "url": "https://github.com/dwenegar/lua/releases/download/5.4.0/lua-5.4.0-win32.zip",
-            "hash": "806fd6f4bb010ea7e170de834b045f4ed2454f09d37a62cc913b3bad06934ede"
+            "url": "https://github.com/luadevkit/build/releases/download/v5.4.0/lua-5.4.0-windows-amd64.zip",
+            "hash": "9aece738cbfb577fc7fdd8ebf9b23a8979b97d14e26371143364706f01ad4a54"
         }
     },
     "env_add_path": "bin",
     "checkver": {
-        "url": "https://github.com/dwenegar/lua/releases",
+        "url": "https://github.com/luadevkit/build/releases",
         "re": "\\/releases\\/tag\\/(?:v|V)?(5\\.4\\.\\d+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dwenegar/lua/releases/download/$version/lua-5.4.$patchVersion-win64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/dwenegar/lua/releases/download/$version/lua-5.4.$patchVersion-win32.zip"
+                "url": "https://github.com/luadevkit/build/releases/download/v$version/lua-5.4.$patchVersion-windows-amd64.zip"
             }
         }
     }
