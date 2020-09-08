@@ -10,6 +10,7 @@
         }
     },
     "env_add_path": "bin",
+    "extract_dir": "lua",
     "checkver": {
         "url": "https://github.com/luadevkit/build/releases",
         "re": "\\/releases\\/tag\\/(?:v|V)?(5\\.3\\.\\d+)"
