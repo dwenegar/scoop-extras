@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/luadevkit/build/releases/download/v5.1.5/lua-5.1.5-windows-amd64.zip",
-            "hash": "28e1f461516885b1e69556934545bce49ec6520e6f58f55646a66ba7cd13aec1"
+            "hash": "560fd3f157ed48a810f40f0d94cf378a7bb5dec702a03ca2c6c8d211a7d281f2"
         }
     },
     "env_add_path": "bin",
@@ -20,6 +20,9 @@
             "64bit": {
                 "url": "https://github.com/luadevkit/build/releases/download/v$version/lua-5.1.$patchVersion-windows-amd64.zip"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
