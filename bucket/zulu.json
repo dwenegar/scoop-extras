@@ -1,21 +1,21 @@
 {
     "description": "Zulu is certified build of OpenJDK",
     "homepage": "https://www.azul.com/products/zulu-community/",
-    "version": "14.29.23",
+    "version": "15.27.17",
     "license": {
         "identifier": "GPL-2.0-only WITH Classpath-exception-2.0",
         "url": "https://www.azulsystems.com/license/zulu_third_party_licenses.html"
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.azul.com/zulu/bin/zulu14.29.23-ca-jdk14.0.2-win_x64.zip",
-            "hash": "281114bf5fb884f17f04ea2390e3e686535091a4922c59d2eb2b83fb0eec2e45",
-            "extract_dir": "zulu14.29.23-ca-jdk14.0.2-win_x64"
+            "url": "https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-fx-jdk15.0.0-win_x64.zip",
+            "hash": "1acb79eee62b0b9d11144463ff206ef661140960c58f49c92783ca1cfff50c53",
+            "extract_dir": "zulu15.27.17-ca-fx-jdk15.0.0-win_x64"
         },
         "32bit": {
-            "url": "https://cdn.azul.com/zulu/bin/zulu14.29.23-ca-jdk14.0.2-win_i686.zip",
-            "hash": "c43cc544758c041234146791d52f340bf19ec6186529c625d685f766b716c9be",
-            "extract_dir": "zulu14.29.23-ca-jdk14.0.2-win_i686"
+            "url": "https://cdn.azul.com/zulu/bin/zulu15.27.17-ca-fx-jdk15.0.0-win_i686.zip",
+            "hash": "ae00d9c0ba5d07f7bc423cdc83c7956cb4dfac4bd01725aeb4b2c0e940a10a68",
+            "extract_dir": "zulu15.27.17-ca-fx-jdk15.0.0-win_i686"
         }
     },
     "env_add_path": "bin",
