@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/luadevkit/build/releases/download/v5.4.1/lua-5.4.1-windows-amd64.zip",
-            "hash": "4a75d813f43c991ef84f952968f4800378f6d23d21677c8d0cf191d489bc303f"
+            "hash": "4187a91e11c11d7c0d017e63c1ccf43d37725084478772fd8cded6da220187e4"
         }
     },
     "env_add_path": "bin",
