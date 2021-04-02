@@ -9,7 +9,9 @@
             "hash": "9e414032aadedeea846f38039f351e189e45ecb587eeceb2fd9f3ad0b35306e8"
         }
     },
-    "env_add_path": "bin",
+    "bin": [
+        "vale.exe"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
