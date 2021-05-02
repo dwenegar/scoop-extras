@@ -1,28 +1,28 @@
 {
-    "version": "2.16.10",
+    "version": "2.16.12",
     "homepage": "http://winmerge.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://downloads.sourceforge.net/project/winmerge/stable/2.16.10/winmerge-2.16.10-x64-exe.zip",
+                "https://downloads.sourceforge.net/project/winmerge/stable/2.16.12/winmerge-2.16.12-x64-exe.zip",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-register.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-unregister.reg"
             ],
             "hash": [
-                "sha1:c1b89611de2c394469dbe8a0d05e7ba3d5628acd",
+                "sha1:a739a05442b5fa6454749274ff8a808ae5d0e000",
                 "2cc87be0085dbb2cc43fbc56f152c80143ce38c0578ec2698002c929bc21591e",
                 "cc0db26578c392d1f9d5b7e50326dfe7da682635cd14af2d58f87e8b2946998d"
             ]
         },
         "32bit": {
             "url": [
-                "https://downloads.sourceforge.net/project/winmerge/stable/2.16.10/winmerge-2.16.10-exe.zip",
+                "https://downloads.sourceforge.net/project/winmerge/stable/2.16.12/winmerge-2.16.12-exe.zip",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-register.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-unregister.reg"
             ],
             "hash": [
-                "sha1:ef66f32cb5cf9e97e5358d76b14ade5b4648110d",
+                "sha1:e782c9a572e3294cb56948424d48a77834aaae32",
                 "2cc87be0085dbb2cc43fbc56f152c80143ce38c0578ec2698002c929bc21591e",
                 "cc0db26578c392d1f9d5b7e50326dfe7da682635cd14af2d58f87e8b2946998d"
             ]
