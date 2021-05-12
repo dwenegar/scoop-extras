@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/dwenegar/doku",
     "license": "BSD-2",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dwenegar/doku/releases/download/0.1.0/doku.0.1.0.win-x64.zip",
-            "hash": "a804b89bc704d4f5c590f46aeebe0d69213e172de510b2248f8f1d5a84753ff6"
+            "url": "https://github.com/dwenegar/doku/releases/download/0.2.0/doku.0.2.0.win-x64.zip",
+            "hash": "19d0f4bcfa278342665229e9142b536abceb0bfa641ba4a7fe2ad0d028529ce1"
         },
         "32bit": {
-            "url": "https://github.com/dwenegar/doku/releases/download/0.1.0/doku.0.1.0.win-x64.zip",
-            "hash": "a804b89bc704d4f5c590f46aeebe0d69213e172de510b2248f8f1d5a84753ff6"
+            "url": "https://github.com/dwenegar/doku/releases/download/0.2.0/doku.0.2.0.win-x64.zip",
+            "hash": "19d0f4bcfa278342665229e9142b536abceb0bfa641ba4a7fe2ad0d028529ce1"
         }
     },
     "bin": "doku.exe",
@@ -17,10 +17,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dwenegar/doku/releases/download/0.1.0/doku.$version.win-x64.zip"
+                "url": "https://github.com/dwenegar/doku/releases/download/$version/doku.$version.win-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/dwenegar/doku/releases/download/0.1.0/doku.$version.win-x64.zip"
+                "url": "https://github.com/dwenegar/doku/releases/download/$version/doku.$version.win-x64.zip"
             }
         }
     }
