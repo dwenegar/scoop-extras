@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/dwenegar/doku",
     "license": "BSD-2",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dwenegar/doku/releases/download/0.3.0/doku.0.3.0.win-x64.zip",
-            "hash": "44241769e75c6e73f316e122df954b813352c35791a73801b0d684b977ee4e78"
+            "url": "https://github.com/dwenegar/doku/releases/download/0.3.1/doku.0.3.1.win-x64.zip",
+            "hash": "9443d3c3e134eb74a7df3d208baef5b756580719c19dc37c8e2fe062adca1f48"
         },
         "32bit": {
-            "url": "https://github.com/dwenegar/doku/releases/download/0.3.0/doku.0.3.0.win-x64.zip",
-            "hash": "44241769e75c6e73f316e122df954b813352c35791a73801b0d684b977ee4e78"
+            "url": "https://github.com/dwenegar/doku/releases/download/0.3.1/doku.0.3.1.win-x64.zip",
+            "hash": "9443d3c3e134eb74a7df3d208baef5b756580719c19dc37c8e2fe062adca1f48"
         }
     },
     "bin": "doku.exe",
