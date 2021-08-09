@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/zodiacon/RegExp",
     "license": "MIT",
-    "version": "0.7",
+    "version": "0.7.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.7/RegExp.exe",
-            "hash": "e4882b728070988c222ec23d78fb0bc6184c6f1757613b2bb90ec05afc51d4d0"
+            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.7.3/RegExp.exe",
+            "hash": "d6bcc25ff7346f260e8f4119f29dbd56ea7e32c6e53b3f5ce10e194f03a4fd5b"
         },
         "32bit": {
-            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.7/RegExp.exe",
-            "hash": "e4882b728070988c222ec23d78fb0bc6184c6f1757613b2bb90ec05afc51d4d0"
+            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.7.3/RegExp.exe",
+            "hash": "d6bcc25ff7346f260e8f4119f29dbd56ea7e32c6e53b3f5ce10e194f03a4fd5b"
         }
     },
     "shortcuts": [
