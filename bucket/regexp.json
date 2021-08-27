@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/zodiacon/RegExp",
     "license": "MIT",
-    "version": "0.7.3",
+    "version": "0.8.5-Beta",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.7.3/RegExp.exe",
-            "hash": "d6bcc25ff7346f260e8f4119f29dbd56ea7e32c6e53b3f5ce10e194f03a4fd5b"
+            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.8.5-Beta/RegExp.exe",
+            "hash": "cd98e219f247b6703c5b6bc1a35768ad204d444d87d6679eff83a8fdf13a4e89"
         },
         "32bit": {
-            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.7.3/RegExp.exe",
-            "hash": "d6bcc25ff7346f260e8f4119f29dbd56ea7e32c6e53b3f5ce10e194f03a4fd5b"
+            "url": "https://github.com/zodiacon/RegExp/releases/download/v0.8.5-Beta/RegExp.exe",
+            "hash": "cd98e219f247b6703c5b6bc1a35768ad204d444d87d6679eff83a8fdf13a4e89"
         }
     },
     "shortcuts": [
@@ -18,7 +18,10 @@
             "RegExp"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/zodiacon/RegExp/releases/latest",
+        "re": "(?<version>v(\\d+\\.\\d+\\.\\d+(?:\\-Beta)))"
+    },
     "autoupdate": {
         "url": "https://github.com/zodiacon/RegExp/releases/download/v$version/RegExp.exe"
     }
