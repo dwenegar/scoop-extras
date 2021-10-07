@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/khanhas/spicetify-cli",
     "description": "Commandline tool to customize Spotify client. Supports Windows, MacOS and Linux. ",
-    "version": "2.6.7",
+    "version": "2.7.0",
     "license": "LGPL-2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/khanhas/spicetify-cli/releases/download/v2.6.7/spicetify-2.6.7-windows-x64.zip",
-            "hash": "0daf493d631cf12d4fb84e02b2fac579efdbf908acc858217cc8c1046f02a4d3"
+            "url": "https://github.com/khanhas/spicetify-cli/releases/download/v2.7.0/spicetify-2.7.0-windows-x64.zip",
+            "hash": "a59587debc8ce8eccc62215d791efac2be4bc758e9abf1b4f20879524433eede"
         }
     },
     "bin": "spicetify.exe",
