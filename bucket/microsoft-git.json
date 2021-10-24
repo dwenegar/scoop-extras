@@ -1,12 +1,12 @@
 {
-    "version": "2.33.0.vfs.0.0",
+    "version": "2.33.0.vfs.0.3",
     "description": "Distributed version control system",
     "homepage": "https://github.com/microsoft/git",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/git/releases/download/v2.33.0.vfs.0.0/PortableGit-2.33.0.vfs.0.0-64-bit.7z.exe#/dl.7z",
-            "hash": "53f7e26951027a64929c42d10ab7cd4abf4b96d5fc6afec4b327a5dac58f7113"
+            "url": "https://github.com/microsoft/git/releases/download/v2.33.0.vfs.0.3/PortableGit-2.33.0.vfs.0.3-64-bit.7z.exe#/dl.7z",
+            "hash": "8f93189c1107dcd615043058ec3d4c3c03284d736ac5bfc012bd05c949f74e99"
         }
     },
     "env_add_path": "cmd",
