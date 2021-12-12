@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/zigtools/zls",
+    "description": "ig Language Server, or zls, is a language server for Zig.",
+    "version": "0.2.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zigtools/zls/releases/download/0.2.0/x86_64-windows.tar.xz",
+            "hash": "2efc180b2e20d92118ce45a1bcb1b2c0abcbb5c65f298a5f480bd7bed5648f3f"
+        }
+    },
+    "bin": "zls.exe",
+    "extract_dir": "x86_64-windows",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zigtools/zls/releases/download/$version/x86_64-windows.tar.xz"
+            }
+        }
+    }
+}
