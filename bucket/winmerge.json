@@ -1,28 +1,28 @@
 {
-    "version": "2.16.16",
-    "homepage": "http://winmerge.org",
+    "version": "2.16.18",
+    "homepage": "https://github.com/WinMerge/winmerge/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://downloads.sourceforge.net/project/winmerge/stable/2.16.16/winmerge-2.16.16-x64-exe.zip",
+                "https://github.com/WinMerge/winmerge/releases/download/v2.16.18/WinMerge-2.16.18-x64-Setup.exe",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-register.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-unregister.reg"
             ],
             "hash": [
-                "sha1:60681432899ad1d48618004c1e48c7ab014648ce",
+                "67bfc32e2d9027f4e42606c790fc134cc20a400c6cb2d98188a508880b14d998",
                 "2cc87be0085dbb2cc43fbc56f152c80143ce38c0578ec2698002c929bc21591e",
                 "cc0db26578c392d1f9d5b7e50326dfe7da682635cd14af2d58f87e8b2946998d"
             ]
         },
         "32bit": {
             "url": [
-                "https://downloads.sourceforge.net/project/winmerge/stable/2.16.16/winmerge-2.16.16-exe.zip",
+                "https://github.com/WinMerge/winmerge/releases/download/v2.16.18/WinMerge-2.16.18-Setup.exe",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-register.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/winmerge-unregister.reg"
             ],
             "hash": [
-                "sha1:7e6b5c11ca5c9966c9129e1bfc1bb9988f452595",
+                "c7d09a3917bc8046e35b4f7ed747fcab83c725c61d700def87eb0d33f1ecd888",
                 "2cc87be0085dbb2cc43fbc56f152c80143ce38c0578ec2698002c929bc21591e",
                 "cc0db26578c392d1f9d5b7e50326dfe7da682635cd14af2d58f87e8b2946998d"
             ]
@@ -44,14 +44,14 @@
             "WinMerge"
         ]
     ],
-    "checkver": "WinMerge ([\\d\\.]+) - latest stable version",
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/winmerge/stable/$version/winmerge-$version-x64-exe.zip"
+                "url": "https://github.com/WinMerge/winmerge/releases/download/v$version/WinMerge-$version-x64-Setup.exe"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/winmerge/stable/$version/winmerge-$version-exe.zip"
+                "url": "https://github.com/WinMerge/winmerge/releases/download/v$version/WinMerge-$version-Setup.exe"
             }
         }
     },
