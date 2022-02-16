@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/luadevkit/lua54",
     "description": "Lua is a powerful, efficient, lightweight, embeddable scripting language.",
-    "version": "5.4.3",
+    "version": "5.4.4",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/luadevkit/lua54/releases/download/v5.4.3/lua-5.4.3-windows-amd64.zip",
-            "hash": "7452a67264f6ad349ac8f8ed2cae5d02cf226d3de131221d1ea46aa860f2b1fb"
+            "url": "https://github.com/luadevkit/lua54/releases/download/v5.4.4/lua-5.4.4-windows-amd64.zip",
+            "hash": "510fefc7c1e681bb2e93f2916d5cfa272f1579f84d3e104b90746693a8507330"
         }
     },
     "env_add_path": "bin",
