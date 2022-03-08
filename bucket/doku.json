@@ -12,6 +12,10 @@
             "hash": "c577851241c00fca5d8dc7b11a9adc25015bde68492072e03464aa6441667101"
         }
     },
+    "depends": [
+        "docfx",
+        "wkhtmltopdf"
+    ],
     "bin": "doku.exe",
     "checkver": "github",
     "autoupdate": {
