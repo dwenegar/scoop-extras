@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0.1626",
+    "version": "1.4.1.1702",
     "description": "A new cross-platform Apple Music experience.",
     "homepage": "https://cier.sh",
     "license": "AGPL-3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ciderapp/cider-releases/releases/download/v1.4.0.1626/Cider-Setup-1.4.0-alpha.1626.exe#/dl.7z",
-            "hash": "3657d4219a0fc1d990d01c7a0f088c2b85ae65f756bf774ab1b0aa95240ea465",
+            "url": "https://github.com/ciderapp/cider-releases/releases/download/v1.4.1.1702/Cider-Setup-1.4.1-alpha.1702.exe#/dl.7z",
+            "hash": "69540a06a750d5bd8ebd843b429cef9fe28b6fcb861b40e144a5e7a02637a3f3",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
