@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/errata-ai/vale",
     "description": "Vale: Your style, our editor.",
-    "version": "2.15.5",
+    "version": "2.17.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/errata-ai/vale/releases/download/v2.15.5/vale_2.15.5_Windows_64-bit.zip",
-            "hash": "5b4da9b1c04404547287195fa453f1bddf2bebdb608319dc4295801f9d9a8c22"
+            "url": "https://github.com/errata-ai/vale/releases/download/v2.17.0/vale_2.17.0_Windows_64-bit.zip",
+            "hash": "858361beaf73e2d7bc296b8e8d27eb49b1f3d5c6979903d3a091e283f3f34ade"
         }
     },
     "bin": "vale.exe",
