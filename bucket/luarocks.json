@@ -30,7 +30,7 @@
         "       'variables = {'",
         "       \"  LUA_BINDIR = `\"$lua/bin`\",\"",
         "       \"  LUA_INCDIR = `\"$lua/include`\",\"",
-        "       \"  LUA_DIR = `\"$lua/lib`\"\"",
+        "       \"  LUA_DIR = `\"$lua`\"\"",
         "       '}'",
         "   )",
         "   Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
