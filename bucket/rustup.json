@@ -2,9 +2,9 @@
     "version": "1.25.1",
     "license": "MIT",
     "hash": "79442f66a969a504febda49ee9158a90ad9e94913209ccdca3c22ef86d635c31",
-    "homepage": "https://github.com/rust-lang-nursery/rustup.rs",
+    "homepage": "https://github.com/rust-lang/rustup",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/rust-lang-nursery/rustup.rs/master/Cargo.toml",
+        "url": "https://raw.githubusercontent.com/rust-lang/rustup/master/Cargo.toml",
         "re": "version = \"(\\d+\\.\\d+\\.\\d+)\""
     },
     "url": "https://win.rustup.rs/#/rustup-init.exe",
