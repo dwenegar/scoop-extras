@@ -2,11 +2,11 @@
     "homepage": "https://github.com/ciderapp/Cider",
     "description": "A new cross-platform Apple Music experience based on Electron and Vue.js written from scratch with performance in mind. 🚀",
     "license": "AGPL-3.0",
-    "version": "1.5.4-beta.49",
+    "version": "1.5.4-beta.78",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ciderapp/cider-releases/releases/download/v1.5.4-beta.49/Cider-Setup-winget-1.5.4-beta.49.exe",
-            "hash": "f514a907626510c00dcdf4429d23b038496139b0dda84f72b8e96c4352315dff"
+            "url": "https://github.com/ciderapp/cider-releases/releases/download/v1.5.4-beta.78/Cider-Setup-winget-1.5.4-beta.78.exe",
+            "hash": "434d9ed9864699a1eb88dd639904f1bcffed7ab75b29947c5be6301778fd0c7a"
         }
     },
     "depends": "sudo",
