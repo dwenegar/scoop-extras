@@ -1,0 +1,13 @@
+{
+    "version": "1.1.0",
+    "description": "simple command line client for Atlassian's Jira service written in Go",
+    "homepage": "https://github.com/ankitpokhrel/jira-cli",
+    "license": "MIT",
+    "url": "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.1.0/jira_1.1.0_windows_amd64.zip",
+    "hash": "23de92ff92c60a9fef3e241951dfa579256c105d687e343502bad7ede13c1036",
+    "bin": "bin\\jira.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ankitpokhrel/jira-cli/releases/download/v$version/jira_$version_windows_amd64.zip"
+    }
+}
