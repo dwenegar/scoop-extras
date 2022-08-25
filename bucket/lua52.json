@@ -1,11 +1,11 @@
 {
-    "homepage": "https://github.com/luadevkit/lua52",
+    "homepage": "https://github.com/dwenegar/lua52",
     "description": "Lua is a powerful, efficient, lightweight, embeddable scripting language.",
     "version": "5.2.4",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/luadevkit/lua52/releases/download/v5.2.4/lua-5.2.4-windows-amd64.zip",
+            "url": "https://github.com/dwenegar/lua52/releases/download/v5.2.4/lua-5.2.4-windows-amd64.zip",
             "hash": "e490d5449e230395e7f4f870672169f0cd6ffffc3f19935a8d15eaa3c1ff77ce"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/luadevkit/lua52/releases/download/v$version/lua-$version-windows-amd64.zip"
+                "url": "https://github.com/dwenegar/lua52/releases/download/v$version/lua-$version-windows-amd64.zip"
             }
         },
         "hash": {
