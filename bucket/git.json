@@ -34,7 +34,7 @@
     },
     "checkver": {
         "github": "https://github.com/git-for-windows/git",
-        "regex": "v([\\w.]+)/PortableGit-(?<full>[\\w.]+)-64-bit"
+        "regex": "/releases/tag/v([\\w.]+)"
     },
     "autoupdate": {
         "architecture": {
