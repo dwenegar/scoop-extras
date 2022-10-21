@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/matusnovak/doxybook2",
     "license": "MIT",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/matusnovak/doxybook2/releases/download/v1.4.0/doxybook2-windows-win64-v1.4.0.zip",
-            "hash": "42f537a7b2b4d3f54b65211f856b8f95a9b7227191d9ba70fa19484dfe5f6f07"
+            "url": "https://github.com/matusnovak/doxybook2/releases/download/v1.5.0/doxybook2-windows-win64-v1.5.0.zip",
+            "hash": "a0f25d85183db729fa76149129f3fbed55eec6a406ed38d1a7c04a9d000636e2"
         },
         "32bit": {
-            "url": "https://github.com/matusnovak/doxybook2/releases/download/v1.4.0/doxybook2-windows-win32-v1.4.0.zip",
-            "hash": "0e5989e31f1decbe5a0214917610e37798bff59ba6840811866f9ba758efbd4b"
+            "url": "https://github.com/matusnovak/doxybook2/releases/download/v1.5.0/doxybook2-windows-win32-v1.5.0.zip",
+            "hash": "e4e07ff93d1771d70ff7f3fc71914b0be4f3fc8243885da168adfedd65336038"
         }
     },
     "bin": "bin\\doxybook2.exe",
