@@ -1,13 +1,13 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "A command line tool to visualize Git history graphs in a comprehensible way, following different branching models.",
     "homepage": "https://github.com/mlange-42/git-graph",
     "license": "MIT",
-    "url": "https://github.com/mlange-42/git-graph/releases/download/0.5.0/git-graph-0.5.0-windows.tar.gz",
-    "hash": "8251571f4162883b932f69f3629525c335cd1e3c039982c964ce3660a6ce33c3",
+    "url": "https://github.com/mlange-42/git-graph/releases/download/0.5.1/git-graph-0.5.1-windows-amd64.tar.gz",
+    "hash": "630b241864cdd1fae5e4978423386c14ca362a107ae7c37f42da7a58f9039cb8",
     "bin": "git-graph\\git-graph.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/mlange-42/git-graph/releases/download/$version/git-graph-$version-windows.tar.gz"
+        "url": "https://github.com/mlange-42/git-graph/releases/download/$version/git-graph-$version-windows-amd64.tar.gz"
     }
 }
