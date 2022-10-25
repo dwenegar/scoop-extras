@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/AcidWeb/CurseBreaker",
+    "license": "GPL-3",
+    "version": "4.3.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AcidWeb/CurseBreaker/releases/download/v4.3.1/CurseBreaker.exe",
+            "hash": "71b4aae78f5fe76eeab2e2a2acf986ff1e95ec8d4010128241c930f23ae48e01"
+        },
+        "32bit": {
+            "url": "https://github.com/AcidWeb/CurseBreaker/releases/download/v4.3.1/CurseBreaker.exe",
+            "hash": "71b4aae78f5fe76eeab2e2a2acf986ff1e95ec8d4010128241c930f23ae48e01"
+        }
+    },
+    "bin": "CurseBreaker.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/AcidWeb/CurseBreaker/releases/download/v$version/CurseBreaker.exe"
+    }
+}
