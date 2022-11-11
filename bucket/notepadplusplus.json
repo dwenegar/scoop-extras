@@ -1,6 +1,6 @@
 {
     "homepage": "https://notepad-plus-plus.org/",
-    "version": "8.4.6",
+    "version": "8.4.7",
     "license": "GPL-2.0-only",
     "notes": "Add Notepad++ as a context menu option by running: \"$dir\\notepadplusplus-install-context.reg\"",
     "bin": "notepad++.exe",
@@ -25,24 +25,24 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.6/npp.8.4.6.portable.x64.zip",
+                "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.7/npp.8.4.7.portable.x64.zip",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "6939b2671b9be0b88fc560be9f6483e0cc8ce546883c03ca9c82b12252bbbb25",
+                "4fa63354348015915df3a42b6750f676669a2743056daffd3b9358706c112000",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.6/npp.8.4.6.portable.zip",
+                "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.7/npp.8.4.7.portable.zip",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-install-context.reg",
                 "https://raw.githubusercontent.com/dwenegar/scoop-extras/master/scripts/notepadplusplus-uninstall-context.reg"
             ],
             "hash": [
-                "91ddc3bfb666950f830df6eec41478473594d049f51b3396bd2cec438e50c867",
+                "a294728c4d856bb93c075e86609210eebf2a5c8d0a8709f7553ed03bd7dbe5ac",
                 "eaa620d7bbbc1785b9800be3159b5df45a4e1b4c653827aab131111531f0a1e7",
                 "5ea77f978bf6867cd16e657958161a276b21ec6d7a45f3fee28ce68707adb720"
             ]
