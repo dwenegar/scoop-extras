@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/dwenegar/doku/releases/download/1.2.0/doku.1.2.0.win-x64.zip",
-            "hash": "b328dd444f333a90083d67cb51b6ee32bcbb0df39cd305c038125e4c72a187f8"
+            "hash": "839bb0a9b726c0f243d75aa8f761559f3dddcfbcc8193b8c84be6525c3bce81f"
         },
         "32bit": {
             "url": "https://github.com/dwenegar/doku/releases/download/1.2.0/doku.1.2.0.win-x64.zip",
-            "hash": "b328dd444f333a90083d67cb51b6ee32bcbb0df39cd305c038125e4c72a187f8"
+            "hash": "839bb0a9b726c0f243d75aa8f761559f3dddcfbcc8193b8c84be6525c3bce81f"
         }
     },
     "depends": [
