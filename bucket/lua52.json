@@ -9,7 +9,9 @@
             "hash": "e490d5449e230395e7f4f870672169f0cd6ffffc3f19935a8d15eaa3c1ff77ce"
         }
     },
-    "env_add_path": "bin",
+    "bin": [
+        [ "bin\\lua.exe", "lua52"]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
