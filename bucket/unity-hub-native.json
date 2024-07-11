@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/Ravbug/UnityHubNative",
     "license": "GPL-3",
-    "version": "1.53",
+    "version": "1.54",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ravbug/UnityHubNative/releases/download/1.53/UnityHubNative-win64.zip",
-            "hash": "bbca320c6276ff2228990b131d2cadd36a176a7665345e4f8fa5455567ecf4fd"
+            "url": "https://github.com/Ravbug/UnityHubNative/releases/download/1.54/UnityHubNative-winx64.zip",
+            "hash": "e556abe8a403dc573c21539fb5f64d1a7aaf5e42ed0cbe084f83623ba2c430fc"
         }
     },
     "bin": "UnityHubNative.exe",
@@ -13,7 +13,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Ravbug/UnityHubNative/releases/download/$version/UnityHubNative-win64.zip"
+                "url": "https://github.com/Ravbug/UnityHubNative/releases/download/$version/UnityHubNative-winx64.zip"
             }
         }
     }
