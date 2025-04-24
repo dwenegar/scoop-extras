@@ -1,0 +1,27 @@
+{
+    "version": "0.6.3",
+    "description": "Get up and running with large language models locally.",
+    "homepage": "https://ollama.com/",
+    "license": "MIT",
+    "notes": "Ollama with deamon has been moved to 'extras/ollama-full'.",
+    "suggest": {
+        "Ollama Full": "extras/ollama-full"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/likelovewant/ollama-for-amd/releases/download/v0.6.3/ollama-windows-amd64.7z",
+            "hash": "7c40679f5bc938b06113e96c0ad9531b70ec85d0902804ff2ba94705dfda4e50"
+        }
+    },
+    "bin": "ollama.exe",
+    "checkver": {
+        "github": "https://github.com/likelovewant/ollama-for-amd"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/likelovewant/ollama-for-amd/releases/download/v$version/ollama-windows-amd64.7z"
+            }
+        }
+    }
+}
