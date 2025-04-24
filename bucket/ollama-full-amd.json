@@ -1,0 +1,41 @@
+{
+    "version": "0.6.3",
+    "description": "Get up and running with large language models locally.",
+    "homepage": "https://ollama.com/",
+    "license": "MIT",
+    "url": "https://github.com/likelovewant/ollama-for-amd/releases/download/v0.6.3/OllamaSetup.exe",
+    "hash": "75b4762978cce62055d2d39db68add0f30b15dd9d7c2c954af34cb8cd16aaeff",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Get-ChildItem \"$dir\\*,1.*\" -Recurse | Rename-Item -NewName { $_.FullName -replace ',1\\.', '.' }",
+                "Get-ChildItem \"$dir\\*,2.*\" -Recurse | Remove-Item"
+            ]
+        },
+        "arm64": {
+            "pre_install": [
+                "Get-ChildItem \"$dir\\*,2.*\" -Recurse | Rename-Item -NewName { $_.FullName -replace ',2\\.', '.' }",
+                "Get-ChildItem \"$dir\\*,1.*\" -Recurse | Remove-Item"
+            ]
+        }
+    },
+    "innosetup": true,
+    "bin": "ollama.exe",
+    "shortcuts": [
+        [
+            "ollama app.exe",
+            "Ollama",
+            "",
+            "app.ico"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/likelovewant/ollama-for-amd"
+    },
+    "autoupdate": {
+        "url": "https://github.com/likelovewant/ollama-for-amd/releases/download/v$version/OllamaSetup.exe",
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
+    }
+}
