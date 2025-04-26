@@ -19,6 +19,9 @@
             "lua54"
         ]
     ],
+    "env_set": {
+        "LUA_DIR": "$dir"
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
