@@ -33,9 +33,6 @@
         "github": "https://github.com/likelovewant/ollama-for-amd"
     },
     "autoupdate": {
-        "url": "https://github.com/likelovewant/ollama-for-amd/releases/download/v$version/OllamaSetup.exe",
-        "hash": {
-            "url": "$baseurl/sha256sum.txt"
-        }
+        "url": "https://github.com/likelovewant/ollama-for-amd/releases/download/v$version/OllamaSetup.exe"
     }
 }
