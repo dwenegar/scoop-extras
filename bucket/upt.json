@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/dwenegar/UnityPackageTool",
     "license": "BSD-2",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dwenegar/UnityPackageTool/releases/download/0.1.0/upt.0.1.0.win-x64.zip",
-            "hash": "1f78be111ab87810f432acb635baefe2693b4d17479ead9388de9866940a90f8"
+            "url": "https://github.com/dwenegar/UnityPackageTool/releases/download/0.1.1/upt.0.1.1.win-x64.zip",
+            "hash": "6ae703caeea5784f665e6a396a4428a5c8e47fd1619f52098ecd9b29e6d9e41b"
         },
         "32bit": {
-            "url": "https://github.com/dwenegar/UnityPackageTool/releases/download/0.1.0/upt.0.1.0.win-x64.zip",
-            "hash": "1f78be111ab87810f432acb635baefe2693b4d17479ead9388de9866940a90f8"
+            "url": "https://github.com/dwenegar/UnityPackageTool/releases/download/0.1.1/upt.0.1.1.win-x64.zip",
+            "hash": "6ae703caeea5784f665e6a396a4428a5c8e47fd1619f52098ecd9b29e6d9e41b"
         }
     },
     "depends": [
