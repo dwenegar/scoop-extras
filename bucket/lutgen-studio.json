@@ -5,17 +5,17 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ozwaldorf/lutgen-rs/releases/download/lutgen-studio-v0.3.0/lutgen-studio-v0.3.0-x86_64-pc-windows-msvc.exe#/lutgen.exe",
+            "url": "https://github.com/ozwaldorf/lutgen-rs/releases/download/lutgen-studio-v0.3.0/lutgen-studio-v0.3.0-x86_64-pc-windows-msvc.exe#/lutgen-studio.exe",
             "hash": "f692f2093767ffa8f2573912133a42b9be67d23fd7a24c5ea065f6b96a85851e"
         }
     },
-    "bin": "lutgen.exe",
+    "bin": "lutgen-studio.exe",
     "checkver": {
         "url": "https://api.github.com/repositories/640093933/releases",
         "jsonpath": "$..tag_name",
         "regex": "lutgen-studio-v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/ozwaldorf/lutgen-rs/releases/download/lutgen-studio-v$version/lutgen-studio-v$version-x86_64-pc-windows-msvc.exe#/lutgen.exe"
+        "url": "https://github.com/ozwaldorf/lutgen-rs/releases/download/lutgen-studio-v$version/lutgen-studio-v$version-x86_64-pc-windows-msvc.exe#/lutgen-studio.exe"
     }
 }
